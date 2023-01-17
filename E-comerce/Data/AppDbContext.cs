@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using E_comerce.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace E_comerce.Data
 {
@@ -7,5 +8,7 @@ namespace E_comerce.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         { 
         }
+        
+        
     }
 }

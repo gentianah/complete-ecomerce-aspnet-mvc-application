@@ -11,6 +11,8 @@ namespace E_comerce.Models
         public string Bio { get; set; }
 
 
-        
+        public List<Movie> Movies { get; set; }
+        //Relationships
+        public List<Actor_Movie> Actor_Movies { get; set; }
     }
 }

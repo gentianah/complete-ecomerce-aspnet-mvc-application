@@ -9,5 +9,7 @@ namespace E_comerce.Models
         public string Logo { get; set; }
         public string Name { get; set; }
         public string Descprition { get; set; }
+        //Relationships
+
     }
 }
